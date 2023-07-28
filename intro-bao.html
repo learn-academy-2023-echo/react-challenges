@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <script
+      src="https://unpkg.com/react@18/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Intro to React</title>
+  </head>
+  <body>
+    <div id="react-container"></div>
+
+    <script type="text/babel">
+      const App = () => {
+        return (
+            <>
+            <Header />
+            <Content />
+            <Footer />
+            </>
+        )    
+      }
+
+      const Header = () => {
+        return <h1>HELLOo0o0Oo EchoOo0 2023!!</h1>
+      }
+
+      const Content = () => {
+        return (
+            <div>
+                <h2>2023e LEARNers</h2>
+                <ul>
+                    <li>Bao</li>
+                    <li>Mike</li> 
+                    <li>Raquel</li> 
+                    <li>Peter</li> 
+                    <li>Graham</li> 
+                    <li>Kiana</li> 
+                    <li>Justin</li> 
+                    <li>Megan</li> 
+                </ul>
+                <p>Big thank you to Sarah, Tricia, and Will</p>
+            </div>
+        )
+      }
+
+      const Footer = () => {
+        return (
+            <footer>
+                Created by BaoKT, 2023 @LEARN
+            </footer>
+        )
+      }
+
+      const domContainer = document.querySelector("#react-container")
+      const root = ReactDOM.createRoot(domContainer)
+      root.render(<App />)
+    </script>
+  </body>
+</html>
