@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+    <script
+      src="https://unpkg.com/react@18/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Intro to React</title>
+  </head>
+  <body>
+    <div id="react-container"></div>
+
+    <script type="text/babel">
+
+
+      const App = () => {
+        return (
+          <>
+        <h2>THIS IS MY TEST REACT</h2>
+        <h4>Nest test</h4>
+        <br></br>
+        <p>Paragraph....</p>
+        <br></br>
+        <h5>Testy Nest</h5>
+         <div>
+          <p>Footer inside new nested div tags</p>
+         
+         </div>
+          </>
+        )
+      }
+
+      const Header = () => {
+        return <h2></h2>
+      }
+
+      const Footer = () => {
+        return (
+          <>
+            <h2></h2>
+            <h2></h2>
+          </>
+        )
+      }
+
+
+      const domContainer = document.querySelector("#react-container")
+      const root = ReactDOM.createRoot(domContainer)
+      root.render(<App />)
+    </script>
+  </body>
+</html>
