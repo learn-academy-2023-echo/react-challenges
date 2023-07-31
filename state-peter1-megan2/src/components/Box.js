@@ -14,7 +14,7 @@ const changeColor = () => {
     return ( 
         <>
         
-        <button>remove a box</button>
+        
         <div className="squareBox"
          onClick={changeColor}
          style={{backgroundColor: color}}>
