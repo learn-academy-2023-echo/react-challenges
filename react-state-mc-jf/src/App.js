@@ -1,19 +1,20 @@
 import React from "react"
+import Square from "./components/Square"
 
-const crayolaColors = [red, orange, yellow, green, blue, purple, pink]
+
 
 const App = () => {
-const boxColor = () => {
-  return 
-}
+//const boxColor = () => {
+
   return (
     <>
-    <h1>Color Box</h1>
-     <button class = "Square" style={{backgroundColor:"white", borderColor: "black", height: "200px", width: "200px"}}>"white"</button>
+      <Square />
     </>
   ) 
 
 }
+
+export default App
 
 
 
@@ -37,4 +38,3 @@ const boxColor = () => {
 // As a user, every time I click the remove button, I can remove the last box in the series
 
 
-export default App;
