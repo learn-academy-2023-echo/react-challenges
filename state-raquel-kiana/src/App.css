@@ -1,0 +1,14 @@
+
+.square  {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  display: flex;
+  margin-left: 50%;
+  margin-top: 25%;
+}
+
+.title {
+  display: flex;
+  margin-left: 50%;
+}
