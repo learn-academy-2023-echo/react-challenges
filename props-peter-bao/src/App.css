@@ -1,0 +1,36 @@
+.diceRoll {
+  height: 500px;
+  width: 500px;
+  border: 2px solid black;
+  margin: 50px;
+ 
+}
+
+.logRoll {
+  height: 500px;
+  width: 500px;
+  border: 2px solid black;
+  margin: 50px;
+
+}
+
+.containers {
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  position: relative;
+  bottom: -100px;
+}
+
+.dice-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
