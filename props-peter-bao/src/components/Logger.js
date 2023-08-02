@@ -1,8 +1,11 @@
 const Logger = (props) => {
-    
-    
     return (
-        <h3>{props.num}</h3>
+        <div className="numbers">
+            {props.num.map((roll, index) =>(
+                <h3>{roll}</h3>
+            ))}
+         </div>
+        
     )
 }
 

@@ -11,7 +11,8 @@
   width: 500px;
   border: 2px solid black;
   margin: 50px;
-
+  text-align: center;
+  overflow: auto;
 }
 
 .containers {
@@ -34,3 +35,13 @@ h2 {
   margin-right: auto;
   width: 50%;
 }
+
+.numbers {
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left;
+  column-fill: auto;
+}
+
