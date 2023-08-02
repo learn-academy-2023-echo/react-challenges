@@ -1,0 +1,63 @@
+
+body {
+  background-image: url("https://i0.hippopx.com/photos/838/45/194/cube-eyes-fall-gambling-preview.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: 'Raleway Dots', cursive;
+  font-size: 100px;
+  color: #fff;
+  text-align: center;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+.diceSquare {
+  height: 450px;
+  width: 450px;
+  border-radius: 25%;
+  box-shadow:
+    0 0 60px 30px #fff,  
+    0 0 100px 60px #f0f, 
+    0 0 140px 90px #0ff; 
+    text-align: center;
+    font-size: 100px;
+    color: #0ff;
+}
+
+.rollLog {
+width: 800px;
+height: 250px;
+padding: 200px;
+border-radius: 25%;
+box-shadow:
+  0 0 60px 30px #fff,  
+  0 0 100px 60px #f0f, 
+  0 0 140px 90px #0ff; 
+  text-align: center;
+  font-size: 30px;
+  color: #0ff;
+  display: flex;
+  padding: 10px;
+}
+
+p {
+  color: #0ff;
+  text-align: center;
+}
+
+div {
+  margin-left: auto;
+  margin-right: auto;
+}
