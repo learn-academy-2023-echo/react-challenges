@@ -5,7 +5,7 @@ const Taco = (props) => {
   return (
     <>
       <div className="taco">
-        <h4>{props.foodObj.name} price: {props.foodObj.price}</h4>
+        <h4>{props.foodObj.name} price: ${props.foodObj.price}</h4>
         <button onClick={()=>{props.addTaco(props.index)}}>Add To Cart</button>
       </div>
     </>
