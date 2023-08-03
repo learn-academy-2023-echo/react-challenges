@@ -1,0 +1,20 @@
+.App {
+ 
+  display: flex;
+}
+.FoodList{
+  height:900px; 
+  width:800px;
+  border:1px solid black;
+}
+
+.SelectedItem{
+  height:700px;
+  width:500px;
+  border:1px solid black;
+}
+
+.food-menu{
+  display: flex;
+  flex-wrap: wrap;
+}
