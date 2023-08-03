@@ -4,7 +4,7 @@ const Box = (props) => {
         
     return (
       <>
-        <div className="box"></div>
+        <div className="box">{props.title}</div>
         <button onClick={props.triggerNextRoll}>Roll The Dice</button>
       </>
     )
