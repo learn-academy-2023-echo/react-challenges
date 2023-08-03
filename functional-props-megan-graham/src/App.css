@@ -1,0 +1,45 @@
+.card {
+  border: 2px solid black;
+  height: 300px;
+  width: 250px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.bag {
+  height: 80px;
+  width: 80px
+}
+
+body {
+  background-image: url("https://img.rawpixel.com/private/static/images/website/2022-05/upwk62068923-wikimedia-image-kowfrldy.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=a2bb0cfa993f8966cd982bc5fc329811");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Rubik 80s Fade', cursive;
+  text-shadow: 3px 3px #FFFDD0;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Rubik 80s Fade', cursive;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
