@@ -1,5 +1,5 @@
 .App {
- 
+  
   display: flex;
 }
 .FoodList{
@@ -14,7 +14,21 @@
   border:1px solid black;
 }
 
-.food-menu{
-  display: flex;
-  flex-wrap: wrap;
+.list h2 {
+  margin-right: 300px;
+  display: inline-block;
+}
+
+.food-props h3 {
+  margin-right: 300px;
+  display: inline-block;
+  text-align: center;
+}
+
+.FoodList h1 {
+  text-align: center;
+}
+
+.SelectedItem h1 {
+  text-align: center;
 }
