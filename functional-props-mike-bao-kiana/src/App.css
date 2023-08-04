@@ -1,0 +1,30 @@
+body {
+  background-image: url("images/tacos-for-life-charlotte-inside.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+.tacoMenu {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order {
+  color: white;
+
+  flex-direction: column;
+  justify-content: center;
+}
