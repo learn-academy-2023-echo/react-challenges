@@ -7,6 +7,7 @@ function App() {
   const [box, setBox] = useState([]) 
 
 const addBox = () => {
+  
     setBox(box.concat(<Box />))
 }
 
